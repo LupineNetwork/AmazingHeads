@@ -1,0 +1,16 @@
+name: AmazingHeads
+version: 0.1.0
+description: Lets ordinary players get heads without using /give
+author: Majora320
+website: http://lupinenetwork.com
+main: org.majora320.amazingheads.AmazingHeads
+
+commands:
+    head:
+        description: Gives you a head of a player, or yourself.
+        permission: amazingheads.use
+        usage: "§cUsage: /head [player=yourself]"
+
+permissions:
+    amazingheads.use:
+        description: Lets you use the /head command.
